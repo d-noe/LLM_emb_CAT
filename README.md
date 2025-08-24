@@ -1,4 +1,4 @@
-# LLM Communication Accommodation
+# LLM Communication Accommodation 🗣️
 
 ## Overview
 
