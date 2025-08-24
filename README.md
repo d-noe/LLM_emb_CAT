@@ -19,6 +19,7 @@ pip install -r requirements.txt
 To reproduce the results, run the shell script run_scripts.sh from the root directory. This will execute the embedding and similarity scripts.
 
 ```bash
+cd scripts
 ./run_scripts.sh
 ```
 
