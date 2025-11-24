@@ -28,3 +28,29 @@ The pipeline will:
 2. Compute QA-pairs similarities based on pre-computed vector representations ([`compute_sims.py`](./scripts/compute_sims.py)). By default, similarity scores will be stored in the `data` folder (`./data/<dataset_name>/sims/<encoder_name>.csv`).
 
 After the script is finished, open the [`results.ipynb`](./results.ipynb) Jupyter Notebook to view and generate the plots (Fig. 1).
+
+
+## Citation
+
+This code was originally produced for the paper [*LLMs stick to the point, humans to style: Semantic and Stylistic Alignment in Human and LLM Communication*](https://aclanthology.org/2025.sigdial-1.16/) (Durandard et al., SIGDIAL 2025).
+
+```latex
+@inproceedings{durandard-etal-2025-llms,
+    title = "{LLM}s stick to the point, humans to style: Semantic and Stylistic Alignment in Human and {LLM} Communication",
+    author = "Durandard, No{\'e}  and
+      Dhawan, Saurabh  and
+      Poibeau, Thierry",
+    editor = "B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Lef{\`e}vre, Fabrice  and
+      Asher, Nicholas  and
+      Kim, Seokhwan  and
+      Merlin, Teva",
+    booktitle = "Proceedings of the 26th Annual Meeting of the Special Interest Group on Discourse and Dialogue",
+    month = aug,
+    year = "2025",
+    address = "Avignon, France",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.sigdial-1.16/",
+    pages = "206--213"
+}
+```
