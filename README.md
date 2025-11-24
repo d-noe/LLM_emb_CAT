@@ -34,7 +34,7 @@ After the script is finished, open the [`results.ipynb`](./results.ipynb) Jupyte
 
 This code was originally produced for the paper [*LLMs stick to the point, humans to style: Semantic and Stylistic Alignment in Human and LLM Communication*](https://aclanthology.org/2025.sigdial-1.16/) (Durandard et al., SIGDIAL 2025).
 
-```latex
+```
 @inproceedings{durandard-etal-2025-llms,
     title = "{LLM}s stick to the point, humans to style: Semantic and Stylistic Alignment in Human and {LLM} Communication",
     author = "Durandard, No{\'e}  and
